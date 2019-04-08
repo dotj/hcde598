@@ -13,20 +13,18 @@ p {
 }
 
 a {
-    color: #111;
-    text-decoration: none;
+    color: #555;
 }
 
-b {
-    color: #e2bcc4;
-    font-weight: bold;
+u {
+    text-decoration: none;
+    border-bottom: 1px solid #ba6879;
 }
 
 a:hover {
-    color: #e2bcc4;
+    color: #ba6879;
 }
 
-/* name */
 h1 {
     text-align: left;
     text-transform: uppercase;
@@ -49,7 +47,7 @@ h2 {
     max-width: 960px;
     max-height: 90%;
     margin: 1.0em;
-    background-color: #fff;
+    background: #fff;
 }
 
 .primary {
@@ -64,21 +62,41 @@ h2 {
 }
 
 .assignment {
-    padding: 0.1em;
-    margin: 0.1em;
-    width: 300px;
-    height: 300px;
+    margin: 0.5em 0em;
     text-align: center;
     float: left;
 }
 
 .assignment a {
-    background-color: #aaa;
+    text-decoration: none;
+    color: #111;
+    display: block;
+    margin: 0.1em;
+    width: 300px;
+    height: 300px;
+    padding: 0.1em;
 }
 
 .assignment a:hover {
-    background-color: #e2bcc4;
+    background-color: #eeeeee;
 }
+
+.preview {
+    width: 270px;
+    overflow: none;
+}
+
+.preview img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.preview img.tall {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}​
 
 
 ::selection {
