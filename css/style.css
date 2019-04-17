@@ -21,6 +21,11 @@ u {
     border-bottom: 1px solid #ba6879;
 }
 
+small {
+    font-size: 0.8em;
+    color: #999;
+}
+
 a:hover {
     color: #ba6879;
 }
