@@ -4,6 +4,8 @@ sandbox/
 # Rhino, dxf backup files
 *.3dmbak
 *.dxfbak
+*.stlbak
+
 
 # Windows ---
 
