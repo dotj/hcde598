@@ -1,11 +1,13 @@
 # Sandbox directory
 sandbox/
 
+# VS Code
+.vscode
+
 # Rhino, dxf backup files
 *.3dmbak
 *.dxfbak
 *.stlbak
-
 
 # Windows ---
 
