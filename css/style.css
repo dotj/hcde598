@@ -86,6 +86,11 @@ h2 {
     background-color: #eeeeee;
 }
 
+.report {
+    max-width: 100%;
+    overflow: none;
+}
+
 .preview {
     width: 270px;
     overflow: none;
