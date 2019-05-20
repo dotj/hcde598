@@ -1,5 +1,6 @@
-# Sandbox directory
-sandbox/
+# Node
+node_modules
+package-lock.json
 
 # VS Code
 .vscode
