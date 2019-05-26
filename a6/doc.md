@@ -4,7 +4,7 @@
 
 This week's assignment was a multi-step process.
 
-1. First, we needed to design a mold for our mold, which would be either 3D printed or CNC milled. This "mold<sup>2<sup>" will be used to cast a silicone mold.
+1. First, we needed to design a mold for our mold, which would be either 3D printed or CNC milled. This "mold2" will be used to cast a silicone mold.
 2. Using our new silicone mold, we would then cast plaster pieces.
 
 
@@ -37,7 +37,7 @@ For this assignment, I decided I wanted to mold and cast a tile design. A tile w
 
 ## Proposed workflow
 
-Since there were multiple steps required for this project, I wrote down a proposed workflow for designing and fabrication my mold<sup>2</sup>.
+Since there were multiple steps required for this project, I wrote down a proposed workflow for designing and fabrication my mold2.
 
 grasshopper for base shape > rhino for details > export stupid triangle list > import to fusion 360 > 
 
@@ -71,8 +71,25 @@ It did not work. 0/10 would not recommend.
 ## 3D Printing
 
 - lol i hate 3d printing
+- failed the first time
+- scaled down, printed without the box,
+- didn't turn out great, but is ok.
+- lost resolution
+- wanted to work with the mill but didn't really have time
 
 
+## Molding the mold with oomoo
+
+- moved forward with making the mold with oomoo
+- didn't glue down enough, 3d printed part floated up
+- flipped it over, miraculously worked, got all the imperfections of the 3D print
+
+
+## Casting
+
+- plaster of paris
+- took a couple tries to get the right "feel"
+- was fairly straightforward
 
 
 # Results
@@ -82,10 +99,6 @@ Each week's project presented its own challenges and most have not been straight
 ## Workflow: Expectation vs. Reality
 
 - successes, failures, etc.
-
-## First 3D Printed Mold
-
-## Second one??
 
 
 ## Source Files
