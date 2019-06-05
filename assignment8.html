@@ -22,11 +22,12 @@
 
             <h1>Overview</h1>
 
-            <p>I made a lamp with two layers a patterned lampshade. The inner lampshade rotates in order to create patterns in the lampshades and a soft, flickering pattern for the light.</p>
+            <p>I made a lamp with two layers of patterned lampshades. The inner lampshade rotates in order to create patterns with the outer lampshade.</p>
+
 
             <h1>Ideation and Concept</h1>
 
-            <p>I wanted to play with light and have layers of moveable lampshades that would combine to create a dynamic lamp. I also started the project with the assumption that <a href="https://en.wikipedia.org/wiki/Murphy's_law">everything that can go wrong, will go wrong (Murphy's Law),</a> especially in a lab setting with limited resources for 40+ people, so I intentionally played it safe.</p>
+            <p>I wanted to play with light and have layers of moveable lampshades that would combine to create a lamp with dynamic light patterns. I also started the project with the assumption that <a href="https://en.wikipedia.org/wiki/Murphy's_law">everything that can go wrong, will go wrong (Murphy's Law)...</a> especially in a lab setting with limited resources for 40+ people, so I intentionally played it safe.</p>
 
             <h1>Process</h1>
 
@@ -51,7 +52,7 @@
 
             <h2>Lamp Base</h2>
 
-            <p>I designed the lamp base mainly in Onshape. After a couple of iterations, I decided to make it big enough for a cylindrical lampshade design because I found the spherical shape a little too large. A cylindrical shape means I won't need to find a way to build the scaffolding for the paper lamp shade. In addition, the base has a track in the middle that will allow for us to fit in rivets that carry a secondary lamp shade on the inside. I also created 3D printed knobs to hold the plastic rivets in place.</p>
+            <p>I designed the lamp base mainly in Onshape. After a couple of iterations, I decided to make it big enough for a cylindrical lampshade design because I found the spherical shape a little too large. A cylindrical shape means I won't need to find a way to build the scaffolding for the paper lamp shade. In addition, the base has a track in the middle that will allow for us to fit in rivets that carry a secondary lamp shade on the inside. I also created 3D printed knobs, which are hollow spheres with a hole at the bottom sized to snap onto the rivet and hold them in place.</p>
 
             <p align="middle">
                 <img class="report" src="a8/img/os-mech.png" height=300>
@@ -62,7 +63,11 @@
             <h2>Lamp Shade</h2>
 
             
-            <p>I calculated the required length and width for two lamp shades and used Grasshopper and Rhino to create patterns on the lamp shade. I initially experimented with variable patterns, though I wasn't happy with the variable patterns I was able to make. I ended up sticking with a linearly-spaced pattern with a hyperbolic curve.</p>
+            <p>I calculated the required length and width for two lamp shades and used Grasshopper and Rhino to create patterns on the lamp shade. I initially experimented with variable patterns using attractors and dynamic spacing, though I wasn't happy with those patterns. I ended up sticking with a linearly-spaced pattern with a hyperbolic curve.</p>
+            
+            <p>I used the laser cutter at Fluke which had a slightly different workflow than the Mill machines, but also afforded much better control. Cutting a single sheet resulted in a lot of burn marks, so I cut two pieces together so that the bottom piece would catch most of the burn marks.</p>
+            
+            <p>I originally planned to also cut out regularly spaced cut strips on the top of the lampshades to bond with the lamp, but forgot before cutting, so I used small strips of paper to fix the shape to the Delrin base. I had planned to try superglue, which seemed to work for bonding leftover delrin pieces, but eventually decided to simply tape it so that I can iterate on the lampshade in the future.</p>
 
             <p align="middle">
                 <img class="report" src="a8/img/gh-rh.png" height=700>
@@ -71,11 +76,12 @@
 
             <h1>Results</h1>
 
-            <p>The lamp was easy to put together, and I didn't get caught in the mad laser cutter chaos at the MILL, and I am very pleased about that. The end result was simple but satisfying.</p>
+            <p>The lamp was easy to put together and I didn't get caught in the mad laser cutter chaos at the MILL. The end result was simple but satisfying (even if it makes my apartment smell like BBQ). I'm glad I tried using the Fluke machines, because everything worked far better for me. And while I didn't take too many chances with this project, I found that I was <em>much</em> less intimidated by the idea of designing and fabricating something new when I needed it.</p>
 
-            <p>More detailed documentation coming soon.</p>
+            <p>The revolving mechanism worked just as expected. The light from the lamp is nicely diffused from far away, and makes a soft, pleasing "flicker" when the inner shade is rotated. I would definitely like to iterate in the future and find a cleaner way to fix the lampshade to the base, as well as design more interesting lampshades.</p>
+
+            <p><i>(More detailed documentation coming soon.)</i></p>
             
-
             <p align="middle">
                 <img class="report" src="a8/img/photo-day.jpg" height=700>
                 <br><small><em>Lamp in daylight.</em></small></br>
@@ -83,7 +89,7 @@
 
             <p align="middle">
                 <img class="report" src="a8/img/spinny.gif">
-                <br><small><em>A GIF showing the inner shade rotating.</em></small></br>
+                <br><small><em>Rotating the inner shade to create patterns.</em></small></br>
             </p>
     
 
@@ -91,7 +97,7 @@
 
             <ul>
                 <li><a href="https://cad.onshape.com/documents/1dd8fa8a968dae5182df24c5/w/d4aa9dbc18a042bbce3e5809/e/e85d5392fdd1273a17b022f6">OnShape Model</a></li>
-                <li><a href="a8/rivet-cap.stl">Stupid triangle list for 3D printed knobl</a></li>
+                <li><a href="a8/rivet-cap.stl">Stupid triangle list for 3D printed knob</a></li>
                 <li><a href="a8/lampshade-design.3dm">Rhino design file</a></li>
                 <li><a href="a8/lampshade-design.gh">Grasshopper design file</a></li>
                 <li><a href="a8/lampshade-final.3dm">Final design of lampshades</a></li>
