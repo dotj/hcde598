@@ -1,12 +1,12 @@
 ---
 title: Nameplate
 date: "2019-04-10"
-description: A simple nameplate
+description: A simple nameplate with found materials.
 ---
 
-![Front of the nameplate](./img/nameplate.jpg)
+![Front of the nameplate](./img/nameplate.jpg "Front of the nameplate")
 
-![Back of the nameplate](./img/nameplate-back.jpg)
+![Back of the nameplate](./img/nameplate-back.jpg "Back of the nameplate")
 
 For our first assignment, we created a nameplate using existing skills.
 

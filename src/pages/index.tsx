@@ -49,13 +49,14 @@ class IndexPage extends React.Component<IndexPageProps, {}> {
           const title = node.frontmatter.title || node.fields.slug
           const description = node.frontmatter.description
           return (
-            <div key={node.fields.slug}>
+            <div key={node.fields.slug} style={{ paddingBottom: '1rem' }}>
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                 {title}
               </Link>
+              &nbsp;—&nbsp;
+              {description}
               <br/>
               <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: description }} />
             </div>
           )
         })}

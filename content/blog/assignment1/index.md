@@ -1,7 +1,7 @@
 ---
 title: Press Fit Construction Kit
 date: "2019-04-17"
-description: A cardboard press-fit construction kit
+description: A laser-cut, press-fit construction kit made of cardboard.
 ---
 
 ![A flower constructed from the final kit.](./img/final.jpg)
@@ -25,9 +25,8 @@ In addition, I knew I wanted to make my kit a “lego-like” set that could be 
 # Design
 
 ![Figure 1: Some initial sketches and prototypes.](./img/sketch1.jpg)
+![Figure 1: Some initial sketches and prototypes.](./img/sketch2.jpg)
 ![Figure 1: Some initial sketches and prototypes.](./img/prototype.jpg)
-
-<!-- ![Figure 1: Some initial sketches and prototypes.](./img/sketch2.jpg) -->
 
 *Figures 1: Some initial sketches and prototypes.*
 
@@ -88,5 +87,5 @@ Overall, I think the result turned out better than I expected! I thought I had a
 # Source Files
 
 - [laser-cutter-test.ai](/project-files/a1/laser-cutter-test.ai) — Illustrator file with comb and test shapes
-- [pressfit-process.ai]() — Illustrator file with a couple iterations of the shapes
-- [pressfit-design.ai]() — Final Illustrator file with laser cut pattern
+- [pressfit-process.ai](/project-files/a1/pressfit-process.ai) — Illustrator file with a couple iterations of the shapes
+- [pressfit-design.ai](/project-files/a1/pressfit-design.ai) — Final Illustrator file with laser cut pattern

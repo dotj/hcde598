@@ -4,47 +4,120 @@ date: "2019-06-07"
 description: A cool spinny lamp for real
 ---
 
-(Coming soon!)
+<p align="middle">
+    <img class="report" src="img/photo-night.jpg" width=700>
+    <br><small><em>The final lamp.</em></small></br>
+</p>
 
+<h1>Overview</h1>
 
-A photo by [Bench Accounting](https://unsplash.com/@benchaccounting)
+<p>I made a lamp with two layers of patterned lampshades. The inner lampshade rotates in order to create patterns with the outer lampshade.</p>
 
-![Alt Text](./bench-accounting-unsplash.jpg)
+<h1>Ideation and Concept</h1>
 
-A photo by [Dave Herring](https://unsplash.com/@daveherring)
+<p>I wanted to play with light and have layers of moveable lampshades that would combine to create a lamp with dynamic light patterns. I wanted to revisit the lamp because I didn't get to spend as much time as I wanted to on the lamp assignment from a previous week (and because my cat chewed up the wire...). Moving parts was also a lot of fun, and I wanted to incorporate that into a lamp design.</p>
 
-![Alt Text](./dave-herring-unsplash.jpg)
+<p>While searching for inspiration, I was initially drawn to minimalist, spherical forms, though I knew that would have been challenging since flat items have been far easier to fabricate and work with. I was also inspired by geometric patterns and kept that inspiration to base my project on.</p>
 
+<p align="middle">
+    <img class="report" src="../assignment7/img/ref-papercut.jpeg" width=225>
+    <img class="report" src="../assignment7/img/ref-mini-moon.png" width=225>
+    <img class="report" src="../assignment7/img/ref-adler.png" width=225>
+    <img class="report" src="../assignment7/img/ref-mondo.png" width=225>
+    <br><small><em>Sources from the original proposal, from top left to bottom right: <a href="https://mymodernmet.com/christine-kim-paper-cut-sculptures/">My Modern Met</a>, <a href="https://www.ylighting.com/mini-crescent-led-chandelier-by-lee-broom-LEEP151607.html">ylighting</a>, <a href="https://www.jonathanadler.com/out-of-stock-online/electrum-kinetic-chandelier/26506.html">Jonathan Adler</a>, <a href="https://oblure.com/products/mondo-pendant/">Oblure</a></em></small></br>
+</p>
+    
+<p>For this week in particular, I also started the project with the assumption that <a href="https://en.wikipedia.org/wiki/Murphy's_law">everything that can go wrong, will go wrong (Murphy's Law)...</a> especially in a lab setting with limited resources for 40+ people, so I intentionally played it safe and stuck with materials that I knew I wouldn't have too much trouble fabricating.</p>
 
+<h1>Process</h1>
 
-# Lorem ipsum dolor sit amet
+<h2>Bill of Materials</h2>
 
-Consectetur adipiscing elit. Donec ultricies velit et consectetur placerat. In et nulla non sem elementum tincidunt. Donec rhoncus, dui tincidunt accumsan mollis, augue urna fringilla justo, eu hendrerit quam elit id ante. Aenean dignissim elementum tellus, quis laoreet ex porttitor a. Curabitur faucibus ornare fermentum. Nullam consequat nisi augue, non convallis mauris finibus at. Nulla eu massa ac libero blandit fermentum. Integer rutrum, velit ut vulputate vestibulum, ex tellus molestie ex, sed pretium eros nulla at augue. Fusce sagittis libero a justo feugiat aliquet. Vivamus rutrum sit amet diam non vulputate. Curabitur luctus eu ligula in volutpat. Aliquam a urna nec velit eleifend hendrerit. In ut fringilla ipsum. Nunc porta, diam a faucibus finibus, nisi purus mollis elit, non rhoncus mi elit eu nulla. Donec nec mauris quis ligula venenatis ultricies.
+<ul>
+    <li>LED Pendant Lamp from Target, $10</li>
+    <li>White Posterboard from Bartell's, $5, used for the lampshade</li>
+    <li>Delrin - 1/8" from Amazon, $18, used for the lamp base and inner ring</li>
+    <li>Plastic Rivets from Joshua, used to fasten the lamp base, ring, and knobs</li>
+    <li>3D Filament from Fluke, used for the knobs</li>
+</ul>
 
-## Morbi lobortis ipsum quis urna commodo tempor
+<h2>Techniques</h2>
 
-- Fusce id mi elit.
-- Donec sit amet lectus lorem.
+<ol>
+    <li>Moving parts: Lamp base</li>
+    <li>Laser cutting: Lamp base and lamp shade</li>
+    <li>3D Printing: Knobs for the rotating mechanism.</li>
+    <li>Parametric modelling: Lamp shade</li>
+</ol>
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. **Pellentesque et arcu magna.** *Aliquam laoreet purus lectus, at vehicula elit feugiat ut.* Sed facilisis odio id erat volutpat, at porta nisi [vestibulum](http://google.com). Curabitur condimentum orci urna, ac finibus nisi elementum ac. Curabitur nec feugiat urna, nec cursus turpis. Nam tincidunt libero ut dui suscipit tincidunt. Ut auctor egestas nisi eu blandit. Donec vitae urna augue. Integer bibendum neque sed diam varius semper. Duis dignissim quis diam nec dignissim.
+<h2>Lamp Base</h2>
 
-### Aliquam sed risus metus.
+<p>I designed the lamp base mainly in Onshape. After a couple of iterations, I decided to make it big enough for a cylindrical lampshade design because I found the spherical shape a little too large. Plus, a cylindrical shape means I won't need to find a way to build the scaffolding for the paper lamp shade. The base has a track in the middle that will allow for us to fit in rivets that carry a secondary lamp shade on the inside. I also created 3D printed knobs, which are hollow spheres with a hole at the bottom sized to snap onto the rivet and hold them in place.</p>
 
-Donec dignissim massa eu rhoncus ultricies. Mauris viverra semper fringilla.
+<p>I cut the Delrin base twice because the initial size was made for the sphere design. Luckily, I used lots of vars in my OnShape design so scaling up the base was fairly easy.</p>
 
-> Donec ornare ante neque, non porta mauris hendrerit vitae. Pellentesque interdum congue laoreet. Donec in est suscipit, porttitor ligula sed, luctus sem. Cras volutpat suscipit efficitur. Curabitur luctus nisl lorem, eu consectetur erat tempus sed.
+<p>Fabrication went fairly smoothly. I used laser cutters at both the MILL and at Fluke on different days. Learning how to use the Fluke's laser cutters took a little time but ended up being a little more streamlined for me. Plus, I never had to wait for long for the Fluke machines.</p>
 
-#### Nam sed est non elit pulvinar tempor vulputate at arcu.
+<p align="middle">
+    <img class="report" src="img/os-mech.png" height=300>
+    <img class="report" src="img/photo-lil-knobs.jpg" height=300>
+    <br><small><em>OnShape CAD model on the left, and small 3D printed knobs for the plastic rivets on the right.</em></small></br>
+</p>
 
-Curabitur malesuada, ante at gravida lobortis, purus quam consequat mi, non finibus nunc odio eget massa. Morbi ut libero posuere, auctor tellus vel, sagittis mauris. Donec porta leo quis vulputate volutpat. Etiam egestas leo in interdum scelerisque. In molestie eleifend mauris, quis eleifend mi feugiat faucibus. Quisque tincidunt, elit in convallis rhoncus, odio lorem lacinia nulla, non mollis ex sapien vel ipsum.
+<h2>Lamp Shade</h2>
 
-```
-Cras enim nunc,
-tempus ac odio quis,
-dictum consectetur tellus.
-Nullam ipsum metus,
-vehicula eget nisl vel,
-iaculis pharetra nunc.
-```
+<p>I originally planned on making a spherical lamp shade and made a couple of preliminary designs for it. This lamp shade was going to be cut out of a flat sheet of paper, so I found <a href="https://erikdemaine.org/papers/SphereWrapping_CGTA/paper.pdf">a paper</a> and <a href="https://www.youtube.com/watch?v=nayHHsyuP0Y">this video tutorial</a> that explained how to cut out a piece of paper that could be reassembled into a sphere. I managed to create this "flower" pattern that could be wrapped together to make a round shape, but decided not to move forward with that idea because I would have to create another shell to get the paper to hold its shape. I decided to go for a cylindrical lamp with patterned cutouts instead.</p>
 
-Sed et ante vel dui bibendum ultrices. Maecenas metus leo, rutrum vel urna egestas, condimentum semper felis. Morbi eleifend erat nec tellus semper malesuada. Maecenas vel condimentum mi. Sed eget gravida ex. Curabitur convallis tincidunt eros non molestie. Quisque quis libero a leo eleifend ultrices. Integer scelerisque neque condimentum purus feugiat placerat. Integer a facilisis diam, sit amet viverra purus. Ut porta sit amet erat eget dapibus. Donec sit amet aliquet ligula, eu iaculis ante.
+<p align="middle">
+    <img class="report" src="img/rh-unroll-srf.png" height=700>
+    <br><small><em>An early attempt at "unrolling" the surface of a sphere to laser cut.</em></small></br>
+</p>
+
+<p>After I decided to go with a cylinder shape, I calculated the required length and width for two lamp shades and used Grasshopper and Rhino to create patterns on the lamp shade. I initially experimented with variable patterns using attractors (using <a href="http://grasshopperprimer.com/en/1-foundations/1-3/2_working-with-attractors.html">a tutorial from ModeLab</a>) and dynamic spacing, though I wasn't able to make a pattern I was really happy with. I ended up sticking with a linearly-spaced pattern of a hyperbolic curve.</p>
+
+<p>For this part, I also used the laser cutter at Fluke. Cutting a single sheet resulted in a lot of burn marks, so I cut two pieces together so that the bottom piece would catch <em>most</em> of the burn marks. There was still a bit of burning, but it wasn't very noticible with the light on so I didn't want to fuss too much about it.</p>
+
+<p>I also originally planned to also cut out regularly spaced cut strips on the top of the lampshades to bond with the lamp, but forgot before I came to lab to cut... I ended up using small strips of masking tape all round the edges (on the inside). I had planned to try superglue, which seemed to work for bonding leftover Delrin pieces, but decided to just keep the tape since it holds surprisingly well, certainly enough for a hanging lamp.</p>
+
+<p align="middle">
+    <img class="report" src="img/gh-rh.png" height=700>
+    <br><small><em>Part of the Grasshopper definition and a few iterations of the lamp shade design.</em></small></br>
+</p>
+
+<h1>Results</h1>
+
+<p>The lamp was easy to put together and I didn't get caught in the mad laser cutter chaos at the MILL. The end result was simple but satisfying (even if it makes my apartment smell like BBQ). I'm glad I tried using the Fluke machines, because everything worked far better for me. And while I didn't take too many chances with this project, I found that I was <em>much</em> less intimidated by the idea of designing and fabricating something new when I needed it.</p>
+
+<p>The revolving mechanism worked just as expected. The light from the lamp is nicely diffused from far away, and makes a soft, pleasing "flicker" when the inner shade is rotated. I would definitely like to iterate in the future and find a cleaner way to fix the lampshade to the base, as well as design more interesting lampshades.</p>
+
+<p align="middle">
+    <img class="report" src="img/photo-day.jpg" height=700>
+    <br><small><em>Lamp in daylight.</em></small></br>
+</p>
+
+<p align="middle">
+    <img class="report" src="/project-files/a8/spinny.gif">
+    <br><small><em>Rotating the inner shade to create patterns.</em></small></br>
+</p>
+
+<h1>Source Files</h1>
+
+<ul>
+    <li><a href="https://cad.onshape.com/documents/1dd8fa8a968dae5182df24c5/w/d4aa9dbc18a042bbce3e5809/e/e85d5392fdd1273a17b022f6">OnShape Model</a></li>
+    <li><a href="/project-files/a8/rivet-cap.stl">Stupid triangle list for 3D printed knob</a></li>
+    <li><a href="/project-files/a8/lampshade-design.3dm">Rhino design file</a></li>
+    <li><a href="/project-files/a8/lampshade-design.gh">Grasshopper design file</a></li>
+    <li><a href="/project-files/a8/lampshade-final.3dm">Final design of lampshades</a></li>
+</ul>
+
+<h1>References</h1>
+
+<ul>
+    <li><a href="https://mymodernmet.com/christine-kim-paper-cut-sculptures/">My Modern Met - Gorgeously Intricate Hand-Cut Paper Sculptures</a></li>
+    <li><a href="https://www.ylighting.com/mini-crescent-led-chandelier-by-lee-broom-LEEP151607.html">ylighting - Mini Crescent LED Chandelier</a></li>
+    <li><a href="https://www.jonathanadler.com/out-of-stock-online/electrum-kinetic-chandelier/26506.html">Jonathan Adler - Electrum Kinetic Chandelier</a></li>
+    <li><a href="https://oblure.com/products/mondo-pendant/">Oblure - Mondo Pendant</a></li>
+    <li><a href="https://erikdemaine.org/papers/SphereWrapping_CGTA/paper.pdf">Erik Demaine - Wrapping Spheres out of Flat Paper</a></li>
+    <li><a href="https://www.youtube.com/watch?v=nayHHsyuP0Y">Becky Chierichetti - Unroll Surface in Rhino 4: Tricks for managing compound curves</a></li>
+    <li><a href="http://grasshopperprimer.com/en/1-foundations/1-3/2_working-with-attractors.html">Mode Lab - Working with Attractors</a></li>
+</ul>

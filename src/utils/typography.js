@@ -1,6 +1,5 @@
 import Typography from 'typography'
 import theme from 'typography-theme-fairy-gates'
-import { transform } from 'typescript'
 
 let accentColor = '#555'
 

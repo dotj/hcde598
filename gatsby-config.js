@@ -34,6 +34,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
+              // bug fix in progress: https://github.com/gatsbyjs/gatsby/pull/19288
+              // markdownCaptions: true, 
+              // showCaptions: true,
               maxWidth: 600,
             },
           },
