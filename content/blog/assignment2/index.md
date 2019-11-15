@@ -2,6 +2,7 @@
 title: CAD Modeling
 date: "2019-04-24"
 description: CAD (Computer Aided Design) modeling with Grasshopper and Rhino.
+featuredImage: './img/obvious-plant.jpg'
 ---
 
 

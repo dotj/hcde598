@@ -2,6 +2,7 @@
 title: Press Fit Construction Kit
 date: "2019-04-17"
 description: A laser-cut, press-fit construction kit made of cardboard.
+featuredImage: './img/final.jpg'
 ---
 
 ![A flower constructed from the final kit.](./img/final.jpg)

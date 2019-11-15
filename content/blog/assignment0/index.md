@@ -2,6 +2,7 @@
 title: Nameplate
 date: "2019-04-10"
 description: A simple nameplate with found materials.
+featuredImage: './img/nameplate.jpg'
 ---
 
 ![Front of the nameplate](./img/nameplate.jpg "Front of the nameplate")

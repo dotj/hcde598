@@ -1,8 +1,10 @@
 import { graphql, Link } from 'gatsby'
+import Img from 'gatsby-image'
 import * as React from 'react'
 import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+
 
 interface PostNode {
   node: {
@@ -11,6 +13,7 @@ interface PostNode {
       date: string
       title: string
       description: string
+      featuredImage: string
     }
     fields: {
       slug: string
@@ -57,6 +60,7 @@ class IndexPage extends React.Component<IndexPageProps, {}> {
               {description}
               <br/>
               <small>{node.frontmatter.date}</small>
+              <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
             </div>
           )
         })}
@@ -85,6 +89,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            featuredImage {
+              childImageSharp {
+                sizes(maxWidth: 300) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
           }
         }
       }

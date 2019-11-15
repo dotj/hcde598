@@ -2,6 +2,7 @@
 title: Moving Parts
 date: "2019-05-08"
 description: Modeling moving parts with OnShape.
+featuredImage: './img/8331.jpg'
 ---
 
 <p align="middle">

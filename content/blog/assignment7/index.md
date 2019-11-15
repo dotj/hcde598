@@ -2,6 +2,7 @@
 title: Project Proposal
 date: "2019-05-29"
 description: A cool spinny lamp in the making
+featuredImage: './img/photo-lamp-cat.jpg'
 ---
 
 <h1>Concept</h1>

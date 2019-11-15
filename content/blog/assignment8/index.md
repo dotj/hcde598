@@ -2,6 +2,7 @@
 title: Final Project
 date: "2019-06-07"
 description: A cool spinny lamp for real
+featuredImage: './img/photo-night.jpg'
 ---
 
 <p align="middle">

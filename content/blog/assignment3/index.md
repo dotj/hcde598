@@ -2,6 +2,7 @@
 title: Lamp
 date: "2019-05-01"
 description: 3D printed and laser-cut Lamp.
+featuredImage: './img/glamour-shot.jpg'
 ---
 
 
